@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+     crossorigin="anonymous">
+</head>
+<body> 
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+       <a href="#" class="logo">PORTFOLIO</a>
+       <div class="toggle" onclick="toggleMenu();"></div>
+       <ul class="menu">
+           <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+           <li><a href="#about" onclick="toggleMenu();">About</a></li>
+		   <li><a href="#certificates" onclick="toggleMenu();">Achievement</a></li>
+           <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+           <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+           <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+       </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textox">
+            <h2>Hello, I'm<br> <span>Rani Verma</span></h2>
+            <h3>I'm a Full Stack Java Developer.</h3><br><br>
+            <h3>Skills:-</h3>			        
+			<a href="" class="btn">java</a>
+					 <a href="" class="btn">C language</a>
+                     <a href="" class="btn">html</a><br>
+			         <a href="" class="btn">CSS</a>
+					 <a href="" class="btn">sql</a>
+					 
+			</div>
+    </section>
+    <!-- Creating About Me Layout in HTML-->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to know me</p>
+            <h2>About me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="image/queen2.jpeg" alt="" class="proPic">
+            </div>
+            <div class="contentBox w50">
+                <h3>Who am I?</h3>
+                <h2>I'm <b>Rani Verma</b>, a Full Stack Java Developer and Web Designer</h2>
+                <p>I'm a fresher. I have passed B.Tech from CSE in 2019. And I have obtained 70.3% in B.Tech.
+                    I have obtained 85.3% in Intermediate and 83.6% marks in HighSchool. I have been trained
+                    through Altran She-Arise CSR Program in Full Stack Java.
+					<p>During this training I have created a project named as ONLINE FOOD MANAGEMENT.
+					This website can be used to order food and also book the table in particular restaurant.
+					</p>
+                </p><br>
+                <p>I have also done 1 month summer training on ASP.Net MVC. And I have developed a website named
+                    as "ONLINE JOB PORTAL". The website can be used by several companies to post their job roles 
+                    and related vacancies and also by jobseekers to search a job role according to their 
+                    requirements. It has a registration page, only after registering themselves onto this website,
+                    companies and jobseekers can perform their further tasks. 
+                </p>
+                <div class="heading bottom">
+                    <a href="image/RANI's Resume (6).pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Rani Verma<br>
+                        <b>Age:</b> 23
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> raniverma6176@gmail.com<br>
+                        <b>Location:</b> India
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+	
+	
+ <!-- Creating Certificates Layout in HTML -->
+	<section class="certificates" id="certificates">
+        <div class="heading white">
+            <h2>MY CERTIFICATES</h2>
+            <p>I have to achieved</p>
+        </div>
+        <div class="content">
+            <div class="servicesBox">
+              <img src="image/certi1.jpeg" >
+
+            </div>
+            <div class="servicesBox">
+               <img src="image/0001.jpg" >
+
+            </div>
+            <div class="servicesBox">
+                <img src="image/0002.jpg" >
+
+            </div>
+            <div class="servicesBox">
+                 <img src="image/0003.jpg" >
+
+            </div>
+            <div class="servicesBox">
+                 <img src="image/0004.jpg" >
+     
+            </div>
+            <div class="servicesBox">
+                 <img src="image/0005.jpg" >
+
+            </div>
+        </div>
+    </section>
+    <!-- Creating Services Layout in HTML -->
+  
+	    <!-- Creating About Project Layout in HTML-->
+    <section class="work" id="work">
+        <div class="heading">
+            <p>Get to know About Project</p>
+            <h2>About Project</h2>
+        </div>
+        
+            <div class="contentBox w50">
+                
+                <h2><b>Project Name:-</b> <b>  Online Food Management</b></h2>
+                <p><b>Platform:-</b>  eclips</p><br>
+				<p><b>Server:-</b>  Apache Tomcate9.0</p><br>
+				<p><b>Technology:-</b>  JSP,Servlet & JDBC</p><br>
+				<p><b>Team Size:-</b>  6 Members.</p><br>
+				<p><b>Role</b>  Front end as well as back end.</p><br>
+				
+				<p><b><u>Working of Project:-</u></b><p><br>
+
+
+                <p> This website can be used basically to order food online and to book the tables in a particular resturant. </p>
+                
+                </div>
+            </div>        
+        </div>
+    </section>
+    <!-- Creating Work Layout in HTML-->
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Showcasing some of my <b>Project Views</b></p>
+        </div>
+        <div class="content">
+            <div class="workBox">
+                <a href="#" target="_blank">
+                    <img src="image/p1.jpeg" alt="">
+                    <p>Web Design Layouts in Home Page of <b>"Online food Management"<b></p>
+                </a>
+            </div>
+            <div class="workBox">
+                <a href="#" target="_blank">
+                    <img src="image/p7.png" alt="">
+                    <p>Beautiful Design of Registration page in <b>Food Management Project</b></p>
+                </a>
+            </div>
+            <div class="workBox">
+                <a href="#" target="_blank">
+                    <img src="image/p3.jpeg" alt="">
+                    <p>The Login Form - With UserID, Password & Submit Button</p>
+                </a>
+            </div>
+            <div class="workBox">
+                <a href="#" target="_blank">
+                    <img src="image/p8.jpeg" alt="">
+                    <p>User Dashoard After Login - Name and Location</p>
+                </a>
+            </div>
+            <div class="workBox">
+                <a href="#" target="_blank">
+                    <img src="image/p2.jpeg" alt="">
+                    <p>food Image gellary of Project Menu</p>
+                </a>
+            </div>
+            <div class="workBox">
+                <a href="#" target="_blank">
+                    <img src="image/p6.jpeg" alt="">
+                    <p>Admin Panel to Collect Dishe's Databases</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/ITSmeSHIVANGI/Online-Food-Management" target="_blank" class="btn" style="color: #fff;">Project Link</a>
+            </div>
+       </div>
+    </section>
+    <!-- Creating Testimonial Layout in HTML-->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my Trainers think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBox">
+                <p>Rani did an excellent creative job, responsing our queries quickly, and also attending 
+                    sessions on punctual basis, being open to faults and mistakes or misunderstandings when they
+                arose. She worked with her project entire way. Highly recommended.</p>
+                <h3>Ravita Parwani <br>Creative Designer</h3>
+            </div>
+            <div class="testimonialBox">
+                <p>I've been Searching for a good and logic creator on designing and developing. She is definitely
+                    the one intelligent for myself with Responsive Behavior. Thanks Rani
+                </p>
+                <h3>Akhilesh Kumar <br>Web Developer</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for development work if the right company comes along. Feel free to<br> contact
+                    me!
+                </p>
+                <div class="contactInfoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                             <h3>Address</h3>
+                             <address>Nai Basti Kushth Sewa Ashram,<br>District varanasi,<br>U.P.,<br>
+                            Pin Code-221008</address>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone No :</h3>
+                            <p>7985861628</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>raniverma6176@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com/" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBox">
+                <form action="">
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2020, YourWebsite.com, All rights Reserved</p>
+    </footer>
+</body>
+</html>
